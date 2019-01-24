@@ -1,6 +1,5 @@
 # crackWall
 
-SSEncrypt is use for Surge.
-mon_net.conf is use for Kitsunebi.
+Personal use.
 
-All these files for personal use.
+Base on [ConnersHua](https://github.com/ConnersHua) [lhie1](https://github.com/lhie1)
