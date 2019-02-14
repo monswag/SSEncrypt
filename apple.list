@@ -1,10 +1,10 @@
 USER-AGENT,com.apple.appstored* // iOS App Store
 USER-AGENT,geod*
 USER-AGENT,locationd*
-USER-AGENT,AppleNews*,APPLE // Apple News
-DOMAIN-SUFFIX,itunes.apple.com,APPLE // App Store Download || iBooks Sample
-DOMAIN,audio-ssl.itunes.apple.com,APPLE // Apple Music Preview
-DOMAIN,gspe1-ssl.ls.apple.com,APPLE // Apple News and Apple Map TOMTOM Version
+USER-AGENT,AppleNews* // Apple News
+DOMAIN-SUFFIX,itunes.apple.com // App Store Download || iBooks Sample
+DOMAIN,audio-ssl.itunes.apple.com // Apple Music Preview
+DOMAIN,gspe1-ssl.ls.apple.com // Apple News and Apple Map TOMTOM Version
 DOMAIN-SUFFIX,appstore.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,mzstatic.com // App Store & iTunes Images
