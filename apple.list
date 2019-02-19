@@ -3,6 +3,7 @@ DOMAIN-SUFFIX,mzstatic.com // App Store & iTunes Images
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,apple.co
 DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple.comscoreresearch.com
 DOMAIN,audio-ssl.itunes.apple.com // Apple Music Preview
 DOMAIN,gspe1-ssl.ls.apple.com // Apple News and Apple Map TOMTOM Version
 DOMAIN,hls.itunes.apple.com
@@ -16,3 +17,5 @@ PROCESS-NAME,News
 PROCESS-NAME,storedownloadd // Mac App Store
 USER-AGENT,com.apple.appstored* // iOS App Store
 USER-AGENT,geod*
+USER-AGENT,AppleNews
+USER-AGENT,com.apple.geod*
