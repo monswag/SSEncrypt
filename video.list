@@ -39,13 +39,17 @@ USER-AGENT,SoundCloud*
 USER-AGENT,*Spotify*
 DOMAIN-KEYWORD,spotify
 DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,pscdn.co
 DOMAIN-SUFFIX,spoti.fi
 
+# Vimeo
+DOMAIN-SUFFIX,vimeo.com
+DOMAIN,play.googleapis.com
+
 # YouTube
-DOMAIN,youtubei.googleapis.com
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,youtube-nocookie.com
-DOMAIN-SUFFIX,youtu.be
-USER-AGENT,*YouTube*
 USER-AGENT,com.google.ios.youtube*
+USER-AGENT,YouTube*
+USER-AGENT,YouTubeMusic*
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,youtube.com
+DOMAIN,youtubei.googleapis.com
