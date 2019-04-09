@@ -1,19 +1,28 @@
 DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,mzstatic.com // App Store & iTunes Images
 DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,apple.co
 DOMAIN-SUFFIX,apple.com
-DOMAIN,apple.comscoreresearch.com
-DOMAIN,audio-ssl.itunes.apple.com // Apple Music Preview
-DOMAIN,gspe1-ssl.ls.apple.com // Apple News and Apple Map TOMTOM Version
-DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,appsto.re
 DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,lookup-api.apple.com // Dictionary
-DOMAIN-SUFFIX,me.com
+DOMAIN,api-glb-sea.smoot.apple.com // Spotlight
+DOMAIN,ocvideo.apple.com // Apple TV
+DOMAIN,gspe1-ssl.ls.apple.com
 PROCESS-NAME,News
-PROCESS-NAME,storedownloadd // Mac App Store
-USER-AGENT,com.apple.appstored* // iOS App Store
-USER-AGENT,geod*
-USER-AGENT,AppleNews
+USER-AGENT,AppleNews*
+USER-AGENT,com.apple.news*
+USER-AGENT,News*
+DOMAIN,gateway.icloud.com
+DOMAIN,news-events.apple.com
+DOMAIN,gateway.icloud.com,PROXY
+DOMAIN,apple.comscoreresearch.com
+# DOMAIN-SUFFIX,apple.news
+# DOMAIN,news-client.apple.com,PROXY // 可选不影响使用
+# DOMAIN,news-edge.apple.com,PROXY // 可选不影响使用
+# PROCESS-NAME,storedownloadd // Mac App Store
+# USER-AGENT,com.apple.appstored* // iOS App Store
+# DOMAIN-SUFFIX,mzstatic.com // App Store & iTunes Images
