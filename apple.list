@@ -19,7 +19,7 @@ USER-AGENT,com.apple.news*
 USER-AGENT,News*
 DOMAIN,gateway.icloud.com
 DOMAIN,news-events.apple.com
-DOMAIN,gateway.icloud.com,PROXY
+DOMAIN,gateway.icloud.com
 DOMAIN,apple.comscoreresearch.com
 # DOMAIN-SUFFIX,apple.news
 # DOMAIN,news-client.apple.com,PROXY // 可选不影响使用
