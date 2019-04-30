@@ -1,29 +1,20 @@
 # DNS
 DOMAIN-KEYWORD,amazon,force-remote-dns
-DOMAIN-KEYWORD,google,force-remote-dns
 DOMAIN-KEYWORD,gmail,force-remote-dns
-DOMAIN-KEYWORD,youtube,force-remote-dns
 DOMAIN-KEYWORD,facebook,force-remote-dns
 DOMAIN-SUFFIX,fb.me,force-remote-dns
 DOMAIN-SUFFIX,fbcdn.net,force-remote-dns
-DOMAIN-KEYWORD,twitter,force-remote-dns
 DOMAIN-KEYWORD,instagram,force-remote-dns
 DOMAIN-KEYWORD,dropbox,force-remote-dns
-DOMAIN-SUFFIX,twimg.com,force-remote-dns
 DOMAIN-KEYWORD,blogspot,force-remote-dns
 DOMAIN-SUFFIX,youtu.be,force-remote-dns
-DOMAIN-KEYWORD,whatsapp,force-remote-dns
 # DOMAIN
 DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,dropbox
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,gmail
-DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,instagram
 DOMAIN-KEYWORD,oculus
-DOMAIN-KEYWORD,twitter
-DOMAIN-KEYWORD,whatsapp
-DOMAIN-KEYWORD,youtube
 DOMAIN-SUFFIX,fb.com
 DOMAIN-SUFFIX,fb.me
 DOMAIN-SUFFIX,fbcdn.net
@@ -33,9 +24,5 @@ DOMAIN-SUFFIX,rfchost.com
 DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,telegra.ph
-DOMAIN-SUFFIX,twimg.co
-DOMAIN-SUFFIX,twimg.com
-DOMAIN-SUFFIX,twitpic.com
-DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,hockeyapp.net
