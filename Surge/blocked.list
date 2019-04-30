@@ -47,7 +47,7 @@ DOMAIN-SUFFIX,droplr.com
 DOMAIN-SUFFIX,duckduckgo.com
 DOMAIN-SUFFIX,eurekavpt.com
 DOMAIN-SUFFIX,feedly.com
-DOMAIN-SUFFIX,gameloft.com
+DOMAIN-SUFFIX,gameloft.com,force-remote-dns
 DOMAIN-SUFFIX,git.io
 DOMAIN-SUFFIX,gitbook.com
 DOMAIN-SUFFIX,instapaper.com
