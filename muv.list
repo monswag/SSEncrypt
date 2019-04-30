@@ -1,5 +1,11 @@
 // Google
 DOMAIN-KEYWORD,google
+DOMAIN-SUFFIX,goo.gl
+DOMAIN-SUFFIX,getoutline.org
+DOMAIN-SUFFIX,gvt0.com
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,gvt3.com
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 
 // SoundCloud
 USER-AGENT,SoundCloud*
