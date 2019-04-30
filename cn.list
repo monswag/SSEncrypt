@@ -1,29 +1,30 @@
 # China Area Network
-# > Microsoft
+// Microsoft
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,windows.net
 DOMAIN-SUFFIX,sfx.ms
 DOMAIN,officecdn-microsoft-com.akamaized.net // Microsoft AutoUpdate
-# > Tencent
+// Tencent
 USER-AGENT,MicroMessenger Client
 USER-AGENT,WeChat*
 DOMAIN-SUFFIX,qq.com
-# > Blizzard
-DOMAIN-SUFFIX,blizzard.com
+// Blizzard
 DOMAIN-SUFFIX,battle.net
+DOMAIN-SUFFIX,battlenet.com
+DOMAIN-SUFFIX,blizzard.com
 DOMAIN,blzddist1-a.akamaihd.net
-# > Steam
+// Steam
 DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steam-chat.com
 DOMAIN,steamcdn-a.akamaihd.net
 DOMAIN,steamuserimages-a.akamaihd.net
 DOMAIN,steamstore-a.akamaihd.net
-# > YYeTs
+// YYeTs
 DOMAIN-SUFFIX,zmzapi.com
 DOMAIN-SUFFIX,zimuzu.tv
 DOMAIN-SUFFIX,zmzfile.com
 DOMAIN-SUFFIX,zmzapi.net
-# > IP Query
+// IP Query
 DOMAIN-SUFFIX,ip.cn
 DOMAIN-SUFFIX,ip.la
 DOMAIN-SUFFIX,ip-cdn.com
@@ -31,7 +32,7 @@ DOMAIN-SUFFIX,ipv6-test.com
 DOMAIN-SUFFIX,test-ipv6.com
 DOMAIN-SUFFIX,whatismyip.com
 DOMAIN,ip.bjango.com // iStat Menu
-# > Other
+// Other
 DOMAIN-SUFFIX,akadns.net
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,jd.hk
@@ -41,7 +42,7 @@ DOMAIN-SUFFIX,udacity.com
 USER-AGENT,NeteaseMusic*
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
 
-# > Download
+// Download
 PROCESS-NAME,aria2c // Aria2GUI
 PROCESS-NAME,fdm // Free Download Manager
 PROCESS-NAME,Folx //Folx
