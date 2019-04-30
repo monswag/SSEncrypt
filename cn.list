@@ -4,26 +4,42 @@ DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,windows.net
 DOMAIN-SUFFIX,sfx.ms
 DOMAIN,officecdn-microsoft-com.akamaized.net // Microsoft AutoUpdate
+
 // Tencent
 USER-AGENT,MicroMessenger Client
 USER-AGENT,WeChat*
 DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,tencent.com
+
 // Blizzard
 DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,battlenet.com
 DOMAIN-SUFFIX,blizzard.com
 DOMAIN,blzddist1-a.akamaihd.net
+
 // Steam
 DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steam-chat.com
 DOMAIN,steamcdn-a.akamaihd.net
 DOMAIN,steamuserimages-a.akamaihd.net
 DOMAIN,steamstore-a.akamaihd.net
+
 // YYeTs
 DOMAIN-SUFFIX,zmzapi.com
 DOMAIN-SUFFIX,zimuzu.tv
 DOMAIN-SUFFIX,zmzfile.com
 DOMAIN-SUFFIX,zmzapi.net
+
+// iQiyi
+DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,iqiyipic.com
+DOMAIN-SUFFIX,71.am.com
+
+// bilibili
+DOMAIN-SUFFIX,acgvideo.com
+DOMAIN-SUFFIX,hdslb.com
+
 // IP Query
 DOMAIN-SUFFIX,ip.cn
 DOMAIN-SUFFIX,ip.la
@@ -32,6 +48,7 @@ DOMAIN-SUFFIX,ipv6-test.com
 DOMAIN-SUFFIX,test-ipv6.com
 DOMAIN-SUFFIX,whatismyip.com
 DOMAIN,ip.bjango.com // iStat Menu
+
 // Other
 DOMAIN-SUFFIX,akadns.net
 DOMAIN-SUFFIX,cloudflare.com
