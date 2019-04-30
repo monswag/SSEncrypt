@@ -4,10 +4,11 @@ DOMAIN-KEYWORD,gmail,force-remote-dns
 DOMAIN-KEYWORD,facebook,force-remote-dns
 DOMAIN-SUFFIX,fb.me,force-remote-dns
 DOMAIN-SUFFIX,fbcdn.net,force-remote-dns
-DOMAIN-SUFFIX,twitter,force-remote-dns
+DOMAIN-KEYWORD,twitter,force-remote-dns
 DOMAIN-KEYWORD,instagram,force-remote-dns
 DOMAIN-KEYWORD,dropbox,force-remote-dns
 DOMAIN-KEYWORD,blogspot,force-remote-dns
+DOMAIN—KEYWORD,whatsapp,force-remote-dns
 
 // DOMAIN
 DOMAIN-KEYWORD,blogspot
@@ -16,6 +17,8 @@ DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,instagram
 DOMAIN-KEYWORD,oculus
+DOMAIN-KEYWORD,twitter
+DOMAIN-KEYWORD,whatsapp
 DOMAIN-SUFFIX,fb.com
 DOMAIN-SUFFIX,fb.me
 DOMAIN-SUFFIX,fbcdn.net
@@ -23,7 +26,6 @@ DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,ifttt.com
 DOMAIN-SUFFIX,rfchost.com
 DOMAIN-SUFFIX,scdn.co
-DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,telegra.ph
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,hockeyapp.net
@@ -36,3 +38,20 @@ DOMAIN-SUFFIX,twimg.co
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twitpic.com
 DOMAIN-SUFFIX,vine.co
+
+// Microsoft
+USER-AGENT,OneDrive*
+DOMAIN-KEYWORD,microsoft
+DOMAIN-SUFFIX,hotmail.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,live.net
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,office.net
+DOMAIN-SUFFIX,outlook.com
+
+// Spark
+DOMAIN-SUFFIX,api.amplitude.com
+DOMAIN-SUFFIX,app.smartmailcloud.com
+DOMAIN-SUFFIX,gate.hockeyapp.net
+DOMAIN-SUFFIX,smartmailcloud.com
