@@ -1,14 +1,15 @@
-# DNS
+// DNS
 DOMAIN-KEYWORD,amazon,force-remote-dns
 DOMAIN-KEYWORD,gmail,force-remote-dns
 DOMAIN-KEYWORD,facebook,force-remote-dns
 DOMAIN-SUFFIX,fb.me,force-remote-dns
 DOMAIN-SUFFIX,fbcdn.net,force-remote-dns
+DOMAIN-SUFFIX,twitter,force-remote-dns
 DOMAIN-KEYWORD,instagram,force-remote-dns
 DOMAIN-KEYWORD,dropbox,force-remote-dns
 DOMAIN-KEYWORD,blogspot,force-remote-dns
-DOMAIN-SUFFIX,youtu.be,force-remote-dns
-# DOMAIN
+
+// DOMAIN
 DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,dropbox
 DOMAIN-KEYWORD,facebook
@@ -26,3 +27,12 @@ DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,telegra.ph
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,hockeyapp.net
+
+// Twitter
+DOMAIN-SUFFIX,pscp.tv
+DOMAIN-SUFFIX,periscope.tv
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,twimg.co
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twitpic.com
+DOMAIN-SUFFIX,vine.co
