@@ -1,9 +1,0 @@
-shadowsocks:
-  image: shadowsocks/shadowsocks-libev:latest
-  ports:
-    - "6583:8388/tcp"
-    - "6583:8388/udp"
-  environment:
-    - METHOD=chacha20-ietf-poly1305
-    - PASSWORD=4ppleDemo
-  restart: always
