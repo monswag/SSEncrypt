@@ -1,23 +1,24 @@
+// Google
+DOMAIN-KEYWORD,google
 
-
-# SoundCloud
+// SoundCloud
 USER-AGENT,SoundCloud*
 
-# Spotify
+// Spotify
 USER-AGENT,*Spotify*
 DOMAIN-KEYWORD,spotify
 DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,pscdn.co
 DOMAIN-SUFFIX,spoti.fi
 
-# Vimeo
+// Vimeo
 DOMAIN-SUFFIX,vimeo.com
-DOMAIN,play.googleapis.com
 
-# YouTube
-USER-AGENT,com.google.ios.youtube*
+// YouTube
+USER-AGENT,*youtube*
 USER-AGENT,YouTube*
-USER-AGENT,YouTubeMusic*
+DOMAIN-KEYWORD,youtube
+DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,youtube.com
-DOMAIN,youtubei.googleapis.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,youtu.be
