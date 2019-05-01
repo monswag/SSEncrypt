@@ -21,8 +21,6 @@ DOMAIN,gateway.icloud.com
 DOMAIN,news-events.apple.com
 DOMAIN,gateway.icloud.com
 DOMAIN,apple.comscoreresearch.com
-# DOMAIN-SUFFIX,apple.news
-# DOMAIN,news-client.apple.com,PROXY // 可选不影响使用
-# DOMAIN,news-edge.apple.com,PROXY // 可选不影响使用
-# PROCESS-NAME,storedownloadd // Mac App Store
-# USER-AGENT,com.apple.appstored* // iOS App Store
+DOMAIN-SUFFIX,apple.news
+PROCESS-NAME,storedownloadd // Mac App Store
+USER-AGENT,com.apple.appstored* // iOS App Store
