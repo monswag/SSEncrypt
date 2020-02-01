@@ -1,4 +1,4 @@
-// Google
+# Google
 DOMAIN-KEYWORD,google
 DOMAIN-SUFFIX,goo.gl
 DOMAIN-SUFFIX,getoutline.org
@@ -7,20 +7,20 @@ DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt3.com
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 
-// SoundCloud
+# SoundCloud
 USER-AGENT,SoundCloud*
 
-// Spotify
+# Spotify
 USER-AGENT,*Spotify*
 DOMAIN-KEYWORD,spotify
 DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,pscdn.co
 DOMAIN-SUFFIX,spoti.fi
 
-// Vimeo
+# Vimeo
 DOMAIN-SUFFIX,vimeo.com
 
-// YouTube
+# YouTube
 USER-AGENT,*youtube*
 USER-AGENT,YouTube*
 DOMAIN-KEYWORD,youtube
