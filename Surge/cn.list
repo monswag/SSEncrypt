@@ -1,65 +1,24 @@
-// Microsoft
-DOMAIN-SUFFIX,microsoft.com
-DOMAIN-SUFFIX,windows.net
-DOMAIN-SUFFIX,sfx.ms
-DOMAIN,officecdn-microsoft-com.akamaized.net // Microsoft AutoUpdate
+# Bilibili
+USER-AGENT,*bili*
+DOMAIN-KEYWORD,bilibili
+DOMAIN-SUFFIX,acg.tv
+DOMAIN-SUFFIX,acgvideo.com
+DOMAIN-SUFFIX,b23.tv
+DOMAIN-SUFFIX,biliapi.com
+DOMAIN-SUFFIX,biliapi.net
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,biligame.com
+DOMAIN-SUFFIX,biligame.net
+DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,hdslb.com
+DOMAIN-SUFFIX,im9.com
 
-// Tencent
-USER-AGENT,MicroMessenger Client
-USER-AGENT,WeChat*
-DOMAIN-SUFFIX,qq.com
-DOMAIN-SUFFIX,qpic.cn
-DOMAIN-SUFFIX,tencent.com
-
-// Blizzard
+# Blizzard
 DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,battlenet.com
 DOMAIN-SUFFIX,blizzard.com
-DOMAIN,blzddist1-a.akamaihd.net
 
-// Steam
-DOMAIN-SUFFIX,steampowered.com
-DOMAIN-SUFFIX,steam-chat.com
-DOMAIN,steamcdn-a.akamaihd.net
-DOMAIN,steamuserimages-a.akamaihd.net
-DOMAIN,steamstore-a.akamaihd.net
-
-// YYeTs
-DOMAIN-SUFFIX,zmzapi.com
-DOMAIN-SUFFIX,zimuzu.tv
-DOMAIN-SUFFIX,zmzfile.com
-DOMAIN-SUFFIX,zmzapi.net
-
-// iQiyi
-DOMAIN-SUFFIX,iqiyi.com
-DOMAIN-SUFFIX,iqiyipic.com
-DOMAIN-SUFFIX,71.am.com
-
-// bilibili
-DOMAIN-SUFFIX,acgvideo.com
-DOMAIN-SUFFIX,hdslb.com
-
-// IP Query
-DOMAIN-SUFFIX,ip.cn
-DOMAIN-SUFFIX,ip.la
-DOMAIN-SUFFIX,ip-cdn.com
-DOMAIN-SUFFIX,ipv6-test.com
-DOMAIN-SUFFIX,test-ipv6.com
-DOMAIN-SUFFIX,whatismyip.com
-DOMAIN,ip.bjango.com // iStat Menu
-
-// Other
-DOMAIN-SUFFIX,cn
-DOMAIN-SUFFIX,akadns.net
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,jd.hk
-DOMAIN-SUFFIX,maoyun.tv
-DOMAIN-SUFFIX,teamviewer.com
-DOMAIN-SUFFIX,udacity.com
-USER-AGENT,NeteaseMusic*
-USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
-
-// Download
+# Download
 PROCESS-NAME,aria2c // Aria2GUI
 PROCESS-NAME,fdm // Free Download Manager
 PROCESS-NAME,Folx //Folx
@@ -69,3 +28,113 @@ PROCESS-NAME,Transmission // Transmission
 PROCESS-NAME,uTorrent //uTorrent
 PROCESS-NAME,WebTorrent // WebTorrent
 PROCESS-NAME,WebTorrent Helper // WebTorrent Helper
+
+# iQiyi
+USER-AGENT,QIYI*
+USER-AGENT,iQiYi*
+DOMAIN-KEYWORD,qiyi
+DOMAIN-SUFFIX,qy.net
+IP-CIDR,101.227.0.0/16,no-resolve
+IP-CIDR,101.224.0.0/13,no-resolve
+IP-CIDR,119.176.0.0/12,no-resolve
+
+# IP Query
+DOMAIN-SUFFIX,ip.cn
+DOMAIN-SUFFIX,ip.la
+DOMAIN-SUFFIX,ip-cdn.com
+DOMAIN-SUFFIX,ipv6-test.com
+DOMAIN-SUFFIX,test-ipv6.com
+DOMAIN-SUFFIX,whatismyip.com
+
+# Microsoft
+USER-AGENT,OneDrive*
+DOMAIN-KEYWORD,microsoft
+DOMAIN-SUFFIX,hotmail.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,live.net
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,office.net
+DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,windows.com
+DOMAIN-SUFFIX,windows.net
+DOMAIN-SUFFIX,windowsupdate.com
+DOMAIN-SUFFIX,sfx.ms
+DOMAIN,officecdn-microsoft-com.akamaized.net // Microsoft AutoUpdate
+
+# NeteaseMusic
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90
+USER-AGENT,NeteaseMusic*
+DOMAIN-SUFFIX,music.126.net
+DOMAIN-SUFFIX,music.163.com
+
+# Steam
+USER-AGENT,Steam*
+DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,steam-chat.com
+DOMAIN,steamcdn-a.akamaihd.net
+DOMAIN,steamuserimages-a.akamaihd.net
+DOMAIN,steamstore-a.akamaihd.net
+
+# Tencent
+USER-AGENT,MicroMessenger Client
+USER-AGENT,WeChat*
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,tencent.com
+DOMAIN-SUFFIX,vv.video.qq.com
+
+# TeamViewer
+DOMAIN-SUFFIX,teamviewer.com
+IP-CIDR,185.188.32.0/24,no-resolve
+IP-CIDR,185.188.33.0/24,no-resolve
+IP-CIDR,185.188.34.0/24,no-resolve
+IP-CIDR,185.188.35.0/24,no-resolve
+IP-CIDR6,2a0b:b580::/48,no-resolve
+IP-CIDR6,2a0b:b581::/48,no-resolve
+IP-CIDR6,2a0b:b582::/48,no-resolve
+IP-CIDR6,2a0b:b583::/48,no-resolve
+
+# Youku
+DOMAIN-SUFFIX,youku.com
+IP-CIDR,106.11.0.0/16,no-resolve
+
+# Other
+DOMAIN-SUFFIX,cn
+DOMAIN-KEYWORD,alipay
+DOMAIN-KEYWORD,alicdn
+DOMAIN-KEYWORD,aliyun
+DOMAIN-KEYWORD,taobao
+DOMAIN-SUFFIX,akadns.net
+DOMAIN-SUFFIX,alibaba.com
+DOMAIN,client.amplifi.com
+DOMAIN-SUFFIX,alphassl.com
+DOMAIN-SUFFIX,bootcss.com
+DOMAIN-SUFFIX,biquge.com.tw
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,edu.cn
+DOMAIN-SUFFIX,ip.bjango.com
+DOMAIN-SUFFIX,ip.sb
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,jd.hk
+DOMAIN-SUFFIX,loli.net
+DOMAIN-SUFFIX,mi.com
+DOMAIN-SUFFIX,maoyun.tv
+DOMAIN-SUFFIX,mmstat.com
+DOMAIN-SUFFIX,moke.com
+DOMAIN-SUFFIX,sb.sb
+DOMAIN-SUFFIX,servicewechat.com
+DOMAIN-SUFFIX,sm.ms
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-SUFFIX,u.nu
+DOMAIN-SUFFIX,udacity.com
+DOMAIN-SUFFIX,xclient.info
+DOMAIN-SUFFIX,zimuzu.tv
+DOMAIN-SUFFIX,zmzapi.com
+DOMAIN-SUFFIX,zmzapi.net
+DOMAIN-SUFFIX,zmzfile.com
+DOMAIN,ip.bjango.com
+
+IP-CIDR,1.255.62.0/24,no-resolve
+IP-CIDR,198.11.188.0/25
+IP-CIDR,198.11.136.0/24
