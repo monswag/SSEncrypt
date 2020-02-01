@@ -49,6 +49,7 @@ DOMAIN-SUFFIX,whatismyip.com
 DOMAIN,ip.bjango.com // iStat Menu
 
 // Other
+DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,akadns.net
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,jd.hk
