@@ -1,26 +1,20 @@
-DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,apple.cn
 DOMAIN-SUFFIX,apple.co
 DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,me.com
-DOMAIN-SUFFIX,mzstatic.com // App Store & iTunes Images
+DOMAIN-SUFFIX,apple.news
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,itunes.com
-DOMAIN-SUFFIX,appsto.re
-DOMAIN-SUFFIX,itunes.apple.com
-DOMAIN-SUFFIX,lookup-api.apple.com // Dictionary
-DOMAIN,api-glb-sea.smoot.apple.com // Spotlight
-DOMAIN,ocvideo.apple.com // Apple TV
-DOMAIN,gspe1-ssl.ls.apple.com
-PROCESS-NAME,News
-USER-AGENT,AppleNews*
-USER-AGENT,com.apple.news*
-USER-AGENT,News*
-DOMAIN,gateway.icloud.com
-DOMAIN,news-events.apple.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mzstatic.com
 DOMAIN,gateway.icloud.com
 DOMAIN,apple.comscoreresearch.com
-DOMAIN-SUFFIX,apple.news
-PROCESS-NAME,storedownloadd // Mac App Store
-USER-AGENT,com.apple.appstored* // iOS App Store
+DOMAIN,www-cdn.icloud.com.akadns.net
+USER-AGENT,AppleNews*
+USER-AGENT,com.apple.appstored*
+USER-AGENT,geod*
+# DOMAIN,gspe1-ssl.ls.apple.com
+# DOMAIN,news-events.apple.com
