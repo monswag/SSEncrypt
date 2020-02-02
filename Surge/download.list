@@ -1,14 +1,4 @@
-PROCESS-NAME,aria2c // Aria2GUI
-PROCESS-NAME,fdm // Free Download Manager
-PROCESS-NAME,Folx //Folx
-PROCESS-NAME,NetTransport // NetTransport
-PROCESS-NAME,Thunder // Thunder
-PROCESS-NAME,Transmission // Transmission
-PROCESS-NAME,uTorrent //uTorrent
-PROCESS-NAME,WebTorrent // WebTorrent
-PROCESS-NAME,WebTorrent Helper // WebTorrent Helper
-
-# Private Tracker
+# tracker
 DOMAIN-SUFFIX,awesome-hd.me
 DOMAIN-SUFFIX,broadcasthe.net
 DOMAIN-SUFFIX,chdbits.co
@@ -32,6 +22,16 @@ DOMAIN-SUFFIX,redacted.ch
 DOMAIN-SUFFIX,springsunday.net
 DOMAIN-SUFFIX,tjupt.org
 DOMAIN-SUFFIX,totheglory.im
+
+PROCESS-NAME,aria2c // Aria2GUI
+PROCESS-NAME,fdm // Free Download Manager
+PROCESS-NAME,Folx //Folx
+PROCESS-NAME,NetTransport // NetTransport
+PROCESS-NAME,Thunder // Thunder
+PROCESS-NAME,Transmission // Transmission
+PROCESS-NAME,uTorrent //uTorrent
+PROCESS-NAME,WebTorrent // WebTorrent
+PROCESS-NAME,WebTorrent Helper // WebTorrent Helper
 
 DOMAIN-KEYWORD,announce
 DOMAIN-KEYWORD,torrent
