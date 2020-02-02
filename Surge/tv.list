@@ -1,12 +1,10 @@
-# Amazon Prime Video
+// amazonprime
 USER-AGENT,InstantVideo.US*
-USER-AGENT,Prime%20Video*
 DOMAIN-SUFFIX,aiv-cdn.net
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,amazonvideo.com
 DOMAIN-SUFFIX,llnwd.net
-
-# BBC
+// bbc
 USER-AGENT,BBCiPlayer*
 DOMAIN-KEYWORD,bbcfmt
 DOMAIN-KEYWORD,co.uk
@@ -16,8 +14,7 @@ DOMAIN-SUFFIX,bbc.co.uk
 DOMAIN-SUFFIX,bbc.com
 DOMAIN-SUFFIX,bbci.co
 DOMAIN-SUFFIX,bbci.co.uk
-
-# Disney Plus
+// disneyplus
 USER-AGENT,Disney*
 DOMAIN-SUFFIX,disneyplus.com
 DOMAIN-SUFFIX,disney-plus.net
@@ -25,30 +22,25 @@ DOMAIN-SUFFIX,dssott.com
 DOMAIN-SUFFIX,bamgrid.com
 DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
 DOMAIN,cdn.registerdisney.go.com
-
-# Hulu
-USER-AGENT,Hulu*
-DOMAIN-SUFFIX,happyon.jp
-DOMAIN-SUFFIX,hulu.com
-DOMAIN-SUFFIX,huluim.com
-DOMAIN-SUFFIX,hulustream.com
-
-# HBO && HBO Go
+// hbo
 USER-AGENT,HBO%20NOW*
 DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com
 DOMAIN-SUFFIX,hbo.com
 DOMAIN-SUFFIX,hboasia.com
 DOMAIN-SUFFIX,hbogo.com
 DOMAIN-SUFFIX,hbogoasia.hk
-
-# Now E
-USER-AGENT,PCCW*
-DOMAIN,bcbolthboa-a.akamaihd.net
-DOMAIN-SUFFIX,nowe.com
-DOMAIN-SUFFIX,youboranqs01.com
-DOMAIN-SUFFIX,nowestatic.com
-
-# Netflix
+// hulu
+USER-AGENT,Hulu*
+DOMAIN-SUFFIX,happyon.jp
+DOMAIN-SUFFIX,hulu.com
+DOMAIN-SUFFIX,huluim.com
+DOMAIN-SUFFIX,hulustream.com
+// mytvsuper
+DOMAIN-KEYWORD,nowtv100
+DOMAIN-KEYWORD,rthklive
+DOMAIN-SUFFIX,mytvsuper.com
+DOMAIN-SUFFIXb.com
+// netflix
 USER-AGENT,Argo*
 DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,netflix.com
@@ -58,8 +50,18 @@ DOMAIN-SUFFIX,nflximg.com
 DOMAIN-SUFFIX,nflximg.net
 DOMAIN-SUFFIX,nflxso.net
 DOMAIN-SUFFIX,nflxvideo.net
-
-# Sky GO
+// nowe
+USER-AGENT,PCCW*
+DOMAIN,bcbolthboa-a.akamaihd.net
+DOMAIN-SUFFIX,nowe.com
+DOMAIN-SUFFIX,youboranqs01.com
+DOMAIN-SUFFIX,nowestatic.com
+// skygo
 USER-AGENT,skygo*
 DOMAIN-SUFFIX,sky.com
 DOMAIN-SUFFIX,skygo.co.nz
+// spotify
+DOMAIN-KEYWORD,spotify
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,pscdn.co
+DOMAIN-SUFFIX,spoti.fi
