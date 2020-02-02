@@ -2,7 +2,6 @@ DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,apple.cn
 DOMAIN-SUFFIX,apple.co
 DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,icloud-content.com
@@ -16,4 +15,3 @@ DOMAIN,np-edge.itunes.apple.com
 DOMAIN,play-edge.itunes.apple.com
 USER-AGENT,com.apple.appstored*
 USER-AGENT,geod*
-
