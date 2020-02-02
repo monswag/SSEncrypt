@@ -1,17 +1,15 @@
 DOMAIN-SUFFIX,aaplimg.com
-DOMAIN-SUFFIX,apple.cn
 DOMAIN-SUFFIX,apple.co
 DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
-DOMAIN-SUFFIX,tv.apple.com
-DOMAIN,www-cdn.icloud.com.akadns.net
-DOMAIN,np-edge.itunes.apple.com
-DOMAIN,play-edge.itunes.apple.com
+DOMAIN-SUFFIX,tv.apple.com //appleTv
+DOMAIN,np-edge.itunes.apple.com //appleTv
+DOMAIN,play-edge.itunes.apple.com //appleTv
+DOMAIN,apple.com.cn
 USER-AGENT,com.apple.appstored*
 USER-AGENT,geod*
