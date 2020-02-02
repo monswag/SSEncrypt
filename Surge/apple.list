@@ -12,4 +12,3 @@ DOMAIN,np-edge.itunes.apple.com //appleTv
 DOMAIN,play-edge.itunes.apple.com //appleTv
 DOMAIN,apple.com.cn
 USER-AGENT,com.apple.appstored*
-USER-AGENT,geod*
