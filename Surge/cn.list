@@ -76,14 +76,6 @@ DOMAIN-SUFFIX,outlook.com
 DOMAIN-SUFFIX,windows.com
 DOMAIN-SUFFIX,windows.net
 DOMAIN-SUFFIX,windowsupdate.com
-// meitu
-DOMAIN-SUFFIX,ccgslb.com
-DOMAIN-SUFFIX,ccgslb.net
-DOMAIN-SUFFIX,chinanetcenter.com
-DOMAIN-SUFFIX,meixincdn.com
-DOMAIN-SUFFIX,ourdvs.com
-DOMAIN-SUFFIX,staticdn.net
-DOMAIN-SUFFIX,wangsu.com
 // netease
 DOMAIN-SUFFIX,163.com
 DOMAIN-SUFFIX,126.net
@@ -125,7 +117,7 @@ DOMAIN-SUFFIX,zimuzu.tv
 DOMAIN-SUFFIX,zmzapi.com
 DOMAIN-SUFFIX,zmzapi.net
 DOMAIN-SUFFIX,zmzfile.com
-// Misc
+// misc
 DOMAIN,client.amplifi.com
 DOMAIN-SUFFIX,alphassl.com
 DOMAIN-SUFFIX,bootcss.com
