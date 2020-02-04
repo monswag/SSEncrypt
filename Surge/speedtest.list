@@ -1,6 +1,6 @@
-# > Fast
+// fast
 DOMAIN-SUFFIX,fast.com
 
-# > Speedtest
+// speedtest
 DOMAIN-KEYWORD,speedtest
 DOMAIN-SUFFIX,ooklaserver.net
