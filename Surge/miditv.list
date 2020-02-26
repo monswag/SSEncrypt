@@ -22,6 +22,10 @@ DOMAIN-SUFFIX,dssott.com
 DOMAIN-SUFFIX,bamgrid.com
 DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
 DOMAIN,cdn.registerdisney.go.com
+// espn
+USER-AGENT,ESPN*
+DOMAIN,espn.hb.omtrdc.net
+DOMAIN-SUFFIX,espn.com
 // hbo
 USER-AGENT,HBO%20NOW*
 DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com
