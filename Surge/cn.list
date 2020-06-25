@@ -51,6 +51,8 @@ DOMAIN-SUFFIX,didialift.com
 DOMAIN-SUFFIX,didiglobal.com
 DOMAIN-SUFFIX,udache.com
 // iqiyi
+USER-AGENT,QIYI*
+USER-AGENT,iQiYi*
 DOMAIN-KEYWORD,qiyi
 DOMAIN-SUFFIX,qy.net
 IP-CIDR,101.227.0.0/16,no-resolve
